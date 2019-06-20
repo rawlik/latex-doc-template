@@ -1,0 +1,82 @@
+\documentclass[11pt,a4paper,hidelinks]{article}
+
+% always use the UTF-8 encoding
+\usepackage[utf8]{inputenc}
+
+% palatino font for text and maths
+\usepackage{mathpazo}
+
+% smaller margins
+% \usepackage{fullpage}
+% given margins
+% \usepackage[top=2.5cm, bottom=2.5cm, inner=3cm, outer=2cm]{geometry}
+
+% upright greek characters
+\usepackage{upgreek}
+
+% figures and graphics
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage[export]{adjustbox}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{caption}
+% slightly reduce the size of the fonts in the captions
+% \captionsetup{font=small}
+
+% typeset units properly
+\usepackage{siunitx}
+
+% bibliography
+\usepackage[square,numbers,sort&compress]{natbib}
+\bibliographystyle{apsrev4-1}
+\usepackage{doi}
+
+\usepackage{hyperref}
+
+% affiliations
+\usepackage[noblocks,auth-sc,affil-it]{authblk}
+
+% hyphenating words with a dash. Use \-/ for dashes
+\usepackage[shortcuts]{extdash}
+
+% tables
+\usepackage{booktabs}
+
+
+
+% Define a note environment for in-line comments.
+\newcommand{\note}[1]{{\color{RoyalBlue}[#1]}}
+% and margin comments
+\newcommand{\mnote}[1]{{\marginpar{\color{RoyalBlue}#1}}}
+% Uncomment the line below to hide the notes in the produced file.
+% \renewcommand{\note}[1]{} \renewcommand{\mnote}[1]{}
+
+
+% reference figure code
+% \begin{figure}
+%   \centering
+%   \includegraphics[width=\linewidth]{gfx/XXX.pdf}
+%   \caption{XXX}\label{fig:XXX}
+% \end{figure}
+
+
+\begin{document}
+
+\title{XXX}
+
+\author[1]{Michał Rawlik}
+\affil[1]{Institute for Biomedical Engineering, ETH Zürich, Switzerland}
+
+\date{\today}
+
+\maketitle
+
+
+\section*{XX}
+XXX
+
+
+% \bibliography{Bibliography}
+
+
+\end{document}
