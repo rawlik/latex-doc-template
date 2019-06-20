@@ -1,0 +1,22 @@
+# latex
+*.aux
+*.log
+*.lol
+*.lot
+*.lof
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.blg
+*.synctex.gz
+*.synctex(busy)
+*.bbl
+# pdfs expect the ones in the gfx directory
+*.pdf
+!gfx/*.pdf
+
+# others
+.vscode
+*.icloud
+.DS_Store
