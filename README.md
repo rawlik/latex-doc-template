@@ -7,5 +7,6 @@ To start working on a document:
 ```bash
 $ mkdir name_of_my_document
 $ git clone git@github.com:rawlik/latex-doc-template.git name_of_my_document
+$ cd name_of_my_document
 $ git remote remove origin
 ```
